@@ -1,0 +1,988 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    
+}
+.clr{
+    clear: both;
+}
+.motto{
+    width:100%;
+    min-height: 40px;
+    background-color: rgb(61, 136, 61);
+    color: #f4f4f4;
+    padding: 10px 0 10px 0;
+    display: flex;
+    align-items: center;
+    font-size: 1.1em;
+}
+header{
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+}
+.islam{
+    background: url('../images/logo.png');
+    width: 120px;
+    height: 50px;
+    background-position: center;
+    background-size: 120px;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    cursor: pointer;
+}
+ .top{
+     width: 100%;
+    display: flex;
+    align-items: center;
+}
+.mas{
+    cursor: pointer;
+    position: relative;
+    margin: 35px 0 0 0;
+    color: rgb(59, 112, 143);
+    font-size: 1.7em;
+    font-weight: 800;
+    padding-right: 150px;
+}
+ .nav {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.nav li a{
+    text-decoration: none;
+    padding: 25px;
+    color: #000;
+    font-size: 1em;
+}
+.nav li a:hover{
+    color: rgb(61, 136, 61);
+}
+.nav .active a:hover{
+    color:white;
+}
+.nav .active {
+    background: rgb(61, 136, 61);
+    padding: 5px 0px;
+    border-radius: 5px;
+}
+.nav .active a{
+    color: white;
+}
+
+.donate{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    width: 30%;
+    right: 0;
+}
+
+.donate a{ 
+    text-transform: uppercase;
+    background: rgb(219, 161, 53);
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 10px 35px;
+    border-radius: 5px;
+    
+    transition: 0.5s;
+}
+
+.donate a:hover{
+    background: rgb(160, 113, 25);
+}
+.banner{
+    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url('../images/mas5.jpg');
+    width:100%;
+    min-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 70px;
+}
+.banner2{
+    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url('../images/inner-banner.jpg');
+    width:100%;
+    min-height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 70px;
+}
+.banner2 h1{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height:350px;
+    font-size: 2.5em;
+    font-weight: 500;
+}
+.cell{
+    text-align: center;
+    padding: 20px 0;
+    max-width: 800px;
+    font-size: 0.9em;
+    color: rgb(116, 115, 115);
+    font-weight: 400;
+    line-height: 1.7em;
+}
+.serve{
+    padding-bottom: 50px;
+    font-size: 0.9em;
+    color: rgb(116, 115, 115);
+    font-weight: 400;
+    line-height: 1.7em;
+}
+.serve .d{
+    padding-bottom: 30px;
+}
+.serve span{
+    font-size: 1em;
+    color: #000;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.serve p{
+    padding-bottom: 25px;
+}
+.serve a{
+    color: #000;
+    text-decoration: none;
+}
+.form2{
+    max-width:700px;
+    font-size: 1em;
+    color: rgb(116, 115, 115);
+    font-weight: 350;
+    line-height: 1.7em;
+}
+.form2 p{
+    padding-bottom: 20px;
+}
+
+.form2 input[type="text"],textarea{
+    display:block;
+    width:650px;
+    height: 15px;
+    border:1px solid rgb(116, 115, 115);
+    margin: 0 0 20px 0;
+    padding: 15px;
+    outline-color: rgb(61, 136, 61);
+}
+.form2 input[type="submit"]{
+    padding: 8px 25px;
+    background-color: rgb(61, 136, 61);
+    color: #f4f4f4;
+    border: 1px solid rgb(61, 136, 61);
+    margin-bottom: 100px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    font-size: 1.09em;
+    font-weight: 500;
+    transition: 0.5s;
+}
+label{
+    font-size: 0.9rem;
+    font-weight: 380;
+}
+.form2 input[type="submit"]:hover{
+    background-color: rgb(219, 161, 53);
+    border: 1px solid rgb(219, 161, 53);
+}
+.form2 textarea{
+    height: 200px;
+}
+
+.fatia{
+    padding-bottom: 40px;
+}
+.fatia img{
+    float:left;
+    width:35%;
+    height: 200px;
+    padding-right: 70px;
+}
+.fatia h1{
+    padding-bottom: 20px;
+}
+.fatia p{
+    font-size: 0.9em;
+    color: rgb(116, 115, 115);
+    font-weight: 400;
+    line-height: 1.7em;
+}
+.fatia h1 p{
+    
+    float:right;
+    max-width:70%;
+
+}
+.support h1{
+    text-transform:uppercase;
+    color: rgb(61, 136, 61);
+    max-width: 500px;
+    padding:20px 0 ;
+    font-weight: 600;
+}
+.support p{
+    font-size: 0.9em;
+    color: rgb(116, 115, 115);
+    font-weight: 400;
+    line-height: 1.7em;
+}
+.fatia a{
+    text-decoration: none;
+    color:#000 ;
+}
+.surah{
+    float:right;
+    width:50%;
+    margin-bottom: 50px;
+}
+.surah ul{
+    list-style: decimal;
+    padding:20px 0 0 10px;
+    font-size: 0.9em;
+    color: rgb(116, 115, 115);
+    font-weight: 400;
+    line-height: 1.7em;
+}
+.surah .in{
+    padding-bottom: 30px;
+    line-height: 1.7em;
+}
+.iqamah{
+    background:linear-gradient(rgba(83, 80, 80, 0.75),rgb(95, 95, 114)), url('../images/showcase.jfif');
+    width: 100%;
+    height: 450px;
+    margin-top: 70px;
+    background-repeat: no-repeat;
+    color: white;
+    background-position: center;
+    background-size: cover;
+}
+.iqamah h2{
+    font-size: 1.7em;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.iqamah ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: px;
+}
+.iqamah ul li{
+    padding-right: 50px;
+    
+}
+.sun{
+    margin: auto; 
+    height: 100px;
+    width:170px;
+}
+.im{
+    position: absolute;
+    background-color: rgb(192, 181, 181);
+    min-height: 200px;
+    width:170px;
+    opacity: 0.2;
+    border-radius: 5px;
+}
+.dawn{
+    position: relative;
+    text-align: center;
+    width:170px;
+    height: 40px;
+    background: rgb(160, 159, 159);
+    padding-top:10px;
+    font-weight: 500;
+    border-radius: 5px;
+
+}
+.fajr{
+    position: relative;
+    width: 170px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 1.9em;
+    font-weight: 700;
+}
+.time{
+    position: relative;
+    text-align: center;
+    background:rgb(61, 136, 61);
+    left:25px;
+    right:15px;
+   padding: 7px 15px;
+   border-radius: 7px;
+   margin-top: 15px;
+   cursor: pointer;
+   font-weight: 600;
+   transition: 1s;
+}
+.time:hover{
+    background:rgb(219, 161, 53);
+}
+.hadith{
+    text-align: center;
+    margin: auto;
+    max-width:900px;
+    padding-top: 60px;
+}
+.hadith h2{
+    padding-bottom: 50px;
+    text-transform: uppercase;
+    font-size: 1.7em;
+}
+.hadith p{
+    font-size: 0.9em;
+    color: rgb(116, 115, 115);
+    font-weight: 400;
+    line-height: 1.7em;
+}
+.gallery{
+   
+    background:rgb(61, 136, 61);
+    min-height: 550px;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 70px;
+    margin-top: 50px;
+}
+.gallery h2{
+    
+    text-align: center;
+    text-transform: uppercase;
+    padding: 50px;
+    color: white;
+    font-size: 1.9em;
+    font-weight: 600;
+}
+
+.gallery .container4 .pics{
+    width: 100%;
+    margin: auto;
+    right: 0px;
+}
+img{
+    padding-left: 27px;
+}
+
+
+.prayer{
+    text-align: center;
+    margin: auto;
+    max-width:900px;
+    padding-top: 60px;
+}
+.prayer h2{
+    padding-bottom: 50px;
+    text-transform: uppercase;
+    font-size: 1.7em;
+}
+.prayer p{
+    font-size: 0.9em;
+    color: rgb(116, 115, 115);
+    font-weight: 400;
+    line-height: 1.7em;
+}
+.pr{
+    background-image: url('../images/prayer.jpg');
+    background-position: center;
+    background-size: 800px;
+    width: 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    margin: auto;
+
+}
+.about{
+    margin-bottom: 50px;
+}
+.about h2{
+    padding-bottom: 25px;
+}
+.about p{
+    font-size: 0.9em;
+    color: rgb(116, 115, 115);
+    font-weight: 400;
+    line-height: 1.7em;
+}
+.footer{
+    width: 100%;
+    margin: auto;
+    display:flex;
+    justify-content: space-between;
+    background: #000;
+    color: rgb(116, 115, 115);
+    height: 500px;
+    position: relative;
+}
+.footer .first{
+    padding: 0 60px;
+    margin-top: 30px;
+    width: 100%;
+    
+}
+.footer .first h3{
+    color: white;
+    text-transform: uppercase;
+    padding: 30px 0;
+    font-weight: 600;
+}
+.footer .first p{
+    padding-bottom: 25px;
+}
+.footer .first .phone{
+    display: flex;
+    align-items: center;
+    
+}
+.footer .first .ph{
+    filter: invert(0.4);
+    height: 17px;
+    padding-left: 0px;
+}
+.footer .first .phone a{
+    text-decoration: none;
+    color: rgb(61, 136, 61);
+    font-weight: 600;
+    padding-left:10px ;
+}
+.footer .first .locate{
+    display: flex;
+    margin-top: 10px;
+}
+.footer .first .locate p{
+    padding-left:10px ;
+
+}
+.footer .first .lo{
+    filter: invert(0.4);
+    height: 17px;
+    padding-top: 5px;
+    padding-left: 0px;
+}
+.footer .second{
+    margin-top: 30px;
+    width: 100%;
+}
+.footer .second h3{
+    color: white;
+    text-transform: uppercase;
+    padding: 30px 0;
+    font-weight: 600;
+}
+.footer .second p {
+    padding-bottom: 20px;
+}
+.footer .second p a{
+    text-decoration: none;
+    color: rgb(116, 115, 115);
+}
+.footer .second a:hover{
+    color:rgb(61, 136, 61);
+}
+
+.footer .third{
+    margin-top: 30px;
+    width: 100%;
+}
+.footer .third h3{
+    color: white;
+    padding: 30px 0;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+a .map {
+    background-image:url('../images/map.png');
+    width:75%;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size:300px ;
+    text-decoration: none;
+    padding: 10px;
+}
+a .map2 {
+    font-size: 0.7em;
+    text-decoration: none;
+    background-color: #fff;
+    color:blue;
+    padding:5px;
+    width:120px;
+    text-align: center;
+    border-radius: 3px;
+}
+a{
+    text-decoration: none;
+}
+.map2:hover{
+    text-decoration: underline;
+}
+.foot .container{
+    position: absolute;
+    bottom: 50px;
+    left:60px;
+    width: 90%;
+    border-top:1px solid rgb(116, 115, 115);
+    padding-top: 30px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mas2{
+    cursor: pointer;
+    position: relative;
+    margin: 35px 0 0 0;
+    color: rgb(59, 112, 143);
+    font-size: 1.7em;
+    font-weight: 800;    
+}
+
+.two{
+    position: relative;
+    background-color: white;
+    width:180px;
+    font-size: 0.8em;
+    text-align: center;
+}
+.it{
+    padding-left: 10px;
+}
+.copy{
+    position: relative;
+    right: 0;
+}
+.send{
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+    margin-bottom: 100px;
+}
+.send p{
+    padding: 10px 0;
+}
+.send a{
+    background-color: rgb(61, 136, 61);
+    color: #f4f4f4;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 10px 150px;
+    border-radius: 2px;
+    transition: 0.5s;
+}
+.send a:hover{
+    background-color: rgb(219, 161, 53);
+    color:#f4f4f4;
+}
+.toggle{
+    display: none;
+}
+
+.navigate{
+    display: none;
+}
+@media(max-width:990px) {
+    .container{
+        width: 95%;
+        margin: auto;
+        overflow: hidden; 
+    }
+    .motto{ 
+        min-height: 30px;
+        padding: 7px 0;
+        font-size: 0.97rem;
+        font-weight: 600;
+    }
+    .islam{
+        width: 80px;
+        height: 20px;
+        background-size: 80px;
+    }
+    .mas{
+        margin: 15px 0 0 0;
+        font-size: 1.1rem;
+        font-weight: 700;  
+        width: 100%;
+    }
+    
+    .nav{
+        display: none;
+    }
+    .donate{
+        width: 100%;
+        margin: auto;
+        right: 30px;
+        position: relative;
+        justify-content: flex-end;
+        
+    }
+    .donate a{ 
+        font-size: 0.85em;
+        padding: 6px 15px;
+        margin-left: 0;
+    }
+    .banner{
+        min-height:350px;
+    }
+    .banner2{
+        text-align: center;
+    }
+    .fatia img{
+        float:none;
+        width:100%;
+        height: 200px;
+        padding-right: 0px;
+        padding-left: 0;
+    }
+    .fatia h1{
+        font-size: 1.5em;
+    }
+    .fatia h1 p{
+        float:none;
+        max-width:70%;
+    }
+    .iqamah{
+        width: 100%;
+        min-height: 1500px;
+        margin-top: 50px;
+    }
+    .iqamah ul{
+        display: block;
+    }
+    .iqamah h2{
+        font-size: 1.5em;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .iqamah ul li{
+        padding-right: 50px;  
+    }
+    .prayer{
+        text-align: center;
+        margin: auto;
+        max-width:900px;
+        padding-bottom: 25px;
+    }
+    .prayer h2{
+        padding-bottom: 0px;
+    }
+    .serve{
+        padding-bottom: 35px;
+    }
+    .serve .d{
+        padding-bottom: 10px;
+    }
+    .serve p{
+        padding-bottom: 15px;
+    }
+    .form2{
+        width:90% ;
+    }
+    .form2 p{
+        padding-bottom: 10px;
+    }
+    .form2 input[type="text"],textarea{
+        width:87.9%;
+        height: 11px;
+    }
+    .form2 input[type="submit"]{
+        padding: 5px 20px;
+        margin-bottom: 70px;
+        font-size: 0.9em;
+    }
+    .form2 textarea{
+        height:100px;
+    }
+    .sun{
+        min-height: 200px;
+        width:250px;
+        padding: 25px 0;
+    }
+    .im{
+        min-height: 200px;
+        width:250px;
+    }
+    .dawn{
+        width:250px;
+        height: 40px;
+        font-weight: 600;
+        border-radius: 5px;
+        font-size:1em;
+    }
+    .fajr{
+        width: 250px;
+        padding-top: 20px;
+        font-size: 1.6em;
+        font-weight: 700;
+    }
+    .time{
+        left:33px;
+        width: 80%;
+        height: 20px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-weight: 500;
+    }
+    .hadith{
+        max-width:600px;
+        padding-top: 50px;
+    }
+    .hadith h2{
+        padding-bottom: 40px;
+        font-size: 1.5em;
+    }
+    .gallery{
+        min-height: 550px;
+        padding-bottom: 70px;
+        margin-top: 50px;
+        
+    }
+    .gallery h2{
+        padding: 30px;
+        font-size: 1.9em;
+        font-weight: 600;
+    }
+    .gallery img{
+        width: 100%;
+        margin: auto;
+        padding: 5px 5px 5px 0;
+        display:block;
+        position: relative;
+        right:2px ;
+
+    }
+   
+    .prayer{
+        max-width:600px;
+        padding-top: 50px;
+    }
+    .prayer h2{
+        padding-bottom: 20px;
+        font-size: 1.5em;
+    }
+    .cell{
+        padding: 5px 0;
+    }
+    .pr{
+        display: none;
+    }
+    .pr2{
+        width: 90%;
+        margin: auto;
+        height: 150px;
+        background-image: url('../images/prayer.jpg');
+        background-position: center;
+        background-size: 250px;
+        background-repeat: no-repeat;
+        margin-top: 30px;
+    }
+    .surah{
+        float:none;
+        width:100%;
+        margin-bottom: 30px;
+        position: relative;
+        z-index: 1000;
+        background-color: white;
+    }
+    .surah ul{
+        list-style: none;
+        padding:15px 0 0 0px;
+    }
+    .surah .in{
+        font-weight: 600;
+        padding-bottom: 20px;
+    }
+    .about{
+        margin-bottom: 40px;
+    }
+    .about h2{
+        padding-bottom: 20px;
+    }
+    .support h1{
+        font-size: 1.3em;
+        padding:15px 0 ;
+        font-weight: 600;
+    }
+    .support p{
+        padding-bottom: 20px;
+    }
+    .footer{
+        width: 100%;
+        display:block;
+        min-height: 950px;
+        position: relative;
+    }
+    .footer .first{
+        padding: 0 0 20px 5px;
+        margin-top: 20px;
+        margin: auto;
+        width: 100%;
+    }
+    .footer .first h3{
+        padding: 20px 0;
+        font-weight: 600;
+    }
+    .footer .first p{
+        padding-bottom: 20px;
+    }
+    .footer .first .phone a{
+        font-weight: 600;
+        padding-left:7px ;
+    }
+
+    .footer .second{
+        margin-top: 5px;
+        width: 100%;
+        padding-left: 5px;
+    }
+    .footer .second h3{
+        color: white;
+        text-transform: uppercase;
+        padding: 20px 0;
+        font-weight: 600;
+    }
+    .footer .third{
+        margin-top: 5px;
+        width: 100%;
+        padding-left:5px;
+    }
+    .footer .third h3{
+        padding: 15px 0px;
+        font-weight: 600;
+    }
+    a .map {
+        width:80%;
+        height: 100px;
+        padding: 10px 10px 0 0;
+        margin-bottom: 0;
+        position: relative;
+    }
+    .mas2{
+        margin: 20px 0 0 0;
+        font-size: 1.5em;
+        font-weight: 800; 
+
+    }
+    .send{
+        padding: 30px 0;
+    }
+    .send p{
+        padding: 5px 0;
+    }
+    .send a{
+        font-size: 1rem;
+        padding: 7px 30px;
+    }
+    .two{
+        padding: 10px;
+        width:180px;
+        height: 40px;
+        font-size: 0.8em;
+        text-align: center;
+        margin: auto;
+    }
+    .it{
+        padding-left: 10px;
+        background-size: 65px;
+    }
+    .copy{
+        position: relative;
+        bottom: 0;
+        text-align: center;
+        padding-top: 17px;
+    }
+    .foot .container{
+        position: absolute;
+        bottom: 50px;
+        left: 15px;
+        width: 90%;
+        border-top:1px solid rgb(116, 115, 115);
+        padding-top: 20px;
+        display: block;
+        margin: auto;
+        right: 15px;
+    }
+    .banner{
+        position: relative;
+        min-height: 300px;
+        z-index:2 ;
+    }
+    .banner2{
+        position: relative;
+        z-index: 2;
+    }
+    .toggle{
+            z-index: 1000;
+            display: flex;
+            width:100%;
+            height: 50px;
+            background-color: rgb(61, 136, 61);
+            justify-content: flex-end;
+            transition: 0.5s;  
+   }
+  
+    .menu {
+            height:50px;
+            width: 50px;
+            background:url('..//images/bars.png');
+            background-size: 25px;
+            background-repeat: no-repeat;
+            background-position: center;
+            filter:invert(1);
+            cursor: pointer;
+    }
+
+    .menu.active2{
+        background:url('..//images/close.png');
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .toggle.active2{
+        height: 250px;  
+    }
+   .navigate{
+    position: absolute;
+    top:220px;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.navigate ul{
+    list-style: none;
+    position:relative ;
+    width: 100%;  
+}
+.navigate ul li a{
+    background-color: rgb(61, 136, 61);
+    font-size: 17px;
+    text-decoration: none;
+    color:#fff;
+}
+.navigate .active3{
+  color:rgb(4, 56, 19);
+}
+
+}
+
