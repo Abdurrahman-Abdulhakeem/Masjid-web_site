@@ -86,10 +86,10 @@
 <div class="navigate">
         <div class="container">
         <ul>
-            <li><a class="active3" href="index.php">Home</a></li>
-            <li><a class="active3" href="">Prayers</a></li>
-            <li><a class="active3" href="">programs</a></li>
-            <li><a class="active3" href="contactsus.php">Contact</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="prayers.php">Prayers</a></li>
+            <li><a href="services.php">programs</a></li>
+            <li><a href="contactsus.php">Contact</a></li>
         </ul>
     </div>
 </div>
